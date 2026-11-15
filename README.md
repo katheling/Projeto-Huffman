@@ -10,5 +10,7 @@ Abra a pasta criada no Explorador de Arquivos do Windows, clique na **barra de e
 Com o CMD aberto dentro da pasta, execute os comandos abaixo em sequência para **compilar**, **compactar** e testar a **descompactação**:
 
 **Compilar:** **`gcc -Wall -Wextra -O3 huffman.c -o huffman.exe`**
+
 **Compactar:** **`huffman.exe c arquivoteste.txt compactado.huff`**
+
 **Descompactar:** **`huffman.exe d compactado.huff restaurado.txt`**
